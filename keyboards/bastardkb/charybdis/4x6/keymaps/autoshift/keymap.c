@@ -54,6 +54,11 @@ static uint16_t auto_pointer_layer_timer = 0;
 #    define SNIPING KC_NO
 #endif // !POINTING_DEVICE_ENABLE
 
+#define CHARYBDIS_MINIMUM_DEFAULT_DPI 400
+#define CHARYBDIS_DEFAULT_DPI_CONFIG_STEP 100
+#define CHARYBDIS_MINIMUM_SNIPING_DPI 100
+#define CHARYBDIS_SNIPING_DPI_CONFIG_STEP 100
+
 // clang-format offs
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT(
