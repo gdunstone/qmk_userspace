@@ -46,7 +46,7 @@ static uint16_t auto_pointer_layer_timer = 0;
 #define RAISE MO(LAYER_RAISE)
 #define PT_Z LT(LAYER_POINTER, KC_Z)
 #define PT_SLSH LT(LAYER_POINTER, KC_SLSH)
-#define WSNIP LSA(KC_S)
+#define WSNIP LSG(KC_S)
 
 #ifndef POINTING_DEVICE_ENABLE
 #    define DRGSCRL KC_NO
